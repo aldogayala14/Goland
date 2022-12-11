@@ -142,4 +142,10 @@ func main() {
 	fmt.Println(arreglo2)
 	fmt.Println(slice2)
 
+	/*-----------MAKE AND APPEND-----------------*/
+	slice3 := make([]int, 3, 5)
+	slice3 = append(slice3, 2)
+	fmt.Println(slice3)
+	fmt.Println(cap(slice3)) //Capacidad del slice
+
 }
